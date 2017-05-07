@@ -66,29 +66,29 @@
     <section id="plots" class="background-light-grey">
         <div class="container-fluid">
         <div class="row">
-        <div class="col-md-10">
+        <div class="col-md-9">
             <div class="row">
                 <div class="plot col-md-6">
                     <h3>Altitude</h3>
-                    <svg width="480" height="250"></svg>
+                    <svg width="400" height="250"></svg>
                 </div>
                 <div class="plot col-md-6">
                     <h3>Pressure</h3>
-                    <svg width="480" height="250"></svg>
+                    <svg width="400" height="250"></svg>
                 </div>
             </div>
             <div class="row">
                 <div class="plot col-md-6">
                     <h3>Temperature</h3>
-                    <svg width="480" height="250"></svg>
+                    <svg width="400" height="250"></svg>
                 </div>
                 <div class="plot col-md-6">
                     <h3>Voltage</h3>
-                    <svg width="480" height="250"></svg>
+                    <svg width="400" height="250"></svg>
                 </div>
             </div>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-3">
                 <div class="panel">
                 <div class="panel-heading">
                   <h3 class="panel-title">Telemetry</h3>
@@ -106,7 +106,7 @@
                   <p>Voltage:</p>
                   <p>Battery:</p>
                 </div>
-                <div class="panel-footer"><hr>Last updated at </div>
+                <div class="panel-footer">Last updated at </div>
               </div>
               <div class="aprs-map">
                 <p>
@@ -117,6 +117,9 @@
                     he_lng = -77.6109;
                     he_zoom = 10; // zoom out a bit
                     he_maptype = 'h'; // hybrid map
+                    //Map size
+                    he_width=250;
+                    he_height=300;
                     // select what to show
                     he_hide_tcp = 1; // do not show Internet stations
                     he_show_aprs = 'w'; // show APRS stations with waypoints

@@ -3,7 +3,7 @@ var svg = d3.selectAll("svg"),
     top: 20,
     right: 20,
     bottom: 30,
-    left: 50
+    left: 30
   },
   width = +svg.attr("width") - margin.left - margin.right,
   height = +svg.attr("height") - margin.top - margin.bottom,
