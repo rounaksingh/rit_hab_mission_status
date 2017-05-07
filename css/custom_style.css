@@ -72,6 +72,23 @@
     margin-top: 10px;
 }
 
+.panel{
+    background-color: #E4E0E0;
+}
+
+.panel h3{
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.panel p{
+    font-size: 0.8em;
+}
+
+.panel-footer{
+    font-size: 0.75em;
+    background-color: #E4E0E0;
+}
 /* Tablet */
 @media(max-width: 768px){
     .plot-res{
